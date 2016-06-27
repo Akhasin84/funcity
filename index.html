@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Cities I like</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="https://ru.airbnb.com/" class="logo">
+			<img src="img/logo.png" alt="AIRBNB">
+		</a>
+		<h1>Cities I Like</h1>
+	</header>
+	<main>
+	<!-- classes .odd and .even added to .cityBlock for animation/slide form sides when page is loading -->
+		<div class="cityBlock odd" id="1">
+			<h3>Odessa</h3>
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore!</p>
+			</article>
+			<a href="#" class="viewButton">View Photos</a>
+			<div class="photoBlock">
+				<div class="pic">
+					<img src="img/odessaOpera.jpg" id="1" alt="img">
+					<span data-decript="1" class="span1">Odessa Opera</span>
+				</div>
+				<div class="pic">
+				<img src="img/odessaPort.jpg" id="2" alt="img">
+				<span data-decript="2" class="span2">Odessa Port View</span>
+				</div>
+			</div>
+		</div>
+		<div class="cityBlock even" id="2">
+			<h3>Tel Aviv - Yafo</h3>
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore!</p>
+			</article>
+			<a href="#" class="viewButton">View Photos</a>
+			<div class="photoBlock">
+				<div class="pic">
+					<img src="img/telavivView.jpg" data-photo="1" alt="img">
+					<span data-decript="1" class="span1">Tel Aviv View</span>
+				</div>
+				<div class="pic">
+				<img src="img/telavivMarina.jpg" data-photo="2" alt="img">
+				<span data-decript="2" class="span2">Tel aviv Marina</span>
+				</div>
+			</div>
+		</div>
+		<div class="cityBlock odd" id="3">
+			<h3>Frankfurt Am Main</h3>
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto quaerat delectus voluptatibus ratione id, aperiam aspernatur architecto doloremque eaque deserunt sunt quo officia neque, maxime esse maiores assumenda. Dolore!</p>
+			</article>
+			<a href="#" class="viewButton">View Photos</a>
+			<div class="photoBlock">
+				<div class="pic">
+					<img src="img/frankfurtView.jpg" data-photo="1" alt="img">
+					<span data-decript="1" class="span1">Frankfurt View</span>
+				</div>
+				<div class="pic">
+				<img src="img/frankfurtPlatz.jpg" data-photo="2" alt="img">
+				<span data-decript="2" class="span2">Frankfurt Old Town Platz</span>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<h5>Site Map</h5>
+		<ul>
+			<li>
+				<a href="#1">Odessa</a>
+			</li>
+			<li>
+				<a href="#2">Tel Aviv - Yaffo</a>
+			</li>
+			<li>
+				<a href="#3">Frankfurt Am Main</a>
+			</li>
+		</ul>
+	</footer>
+	
+	<script src="jquery-3.0.0.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
